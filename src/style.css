@@ -58,6 +58,7 @@ li {
   display: flex;
   align-items: center;
   padding: 10px 0;
+  cursor: pointer;
 }
 
 li input {
@@ -66,6 +67,11 @@ li input {
 
 li p {
   flex: 1;
+}
+li:hover {
+  background: lightblue;
+  border-radius: 5px;
+  padding: 10px 0px 10px 5px;
 }
 
 li .todo {
@@ -78,4 +84,17 @@ li .todo {
 
 li .todo.done {
   background: #333;
+  text-decoration: line-through;
+}
+
+button.danger {
+  background: #eb2f06;
+}
+
+button.primary {
+  background: #4a69bd;
+}
+
+button.success {
+  background: #2ed573;
 }

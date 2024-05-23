@@ -24,6 +24,11 @@ const todos = [
     done: true,
     editMode: false,
   },
+  {
+    text: "Faire du java",
+    done: false,
+    editMode: false,
+  },
 ];
 
 const displayTodo = () => {
